@@ -8,8 +8,7 @@
 ██████  ███████ ██   ██  ██████ ██   ██     ██       ██████  ██   ████    ██
 ```
 
-**Portable RF pentest toolkit with a fullscreen 8-bit pixel-art GUI.**  
-Built with PyQt5. Real hardware access via `spidev` and `RPi.GPIO` — no simulations.
+Built with PyQt5. Real hardware access via `spidev` and `RPi.GPIO`
 
 ---
 
@@ -20,11 +19,12 @@ Built with PyQt5. Real hardware access via `spidev` and `RPi.GPIO` — no simula
 - **SNIFF** — Promiscuous-style packet capture with CRC disabled. Prints raw packets as hex in real time.
 - **SWEEP** — Transmits noise payload at PA MAX + 2MBPS across all channels continuously.
 
-### Jammer Module *(independent menu)*
+### Internal Features
 - **WiFi Deauth** — 802.11 deauthentication flood via `airmon-ng` + `aireplay-ng`
 - **BT/BLE Flood** — Randomized BLE advertisement flood via `hcitool`
 
 > ⚠️ **For use only on your own devices and networks. Authorized security research only.**
+> I accediently typed Jammer on the Internal Features menu. It was a mistake and going to be changed in the new release.
 
 ---
 
@@ -100,24 +100,7 @@ blackpony/
 
 ---
 
-## UI Preview
 
-```
-┌─────────────────────────┐
-│ ✕  ■ BLACK PONY  00:00  │
-│─────────────────────────│
-│  > SELECT MODULE_       │
-│ ┌──────────┐┌──────────┐│
-│ │ ▓▓       ││ ▓▓       ││
-│ │ NRF24    ││ JAMMER   ││
-│ │Scan/Sniff││WiFi / BT ││
-│ └──────────┘└──────────┘│
-│ ┌──────────┐┌──────────┐│
-│ │ ░░  GSM  ││ ░░  GPS  ││
-│ │  (soon)  ││  (soon)  ││
-│ └──────────┘└──────────┘│
-└─────────────────────────┘
-```
 
 ---
 
@@ -127,4 +110,4 @@ MIT License — Use only for ethical and legal purposes.
 
 ---
 
-*Black Pony v5.0 — direct hardware access via spidev + RPi.GPIO*
+*Black Pony
