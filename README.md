@@ -44,7 +44,7 @@ bluez / hcitool   (for BT Flood)
 
 ## Installation
 
-### 1. Enable SPI
+### 1. Enable SPI (installer does this part. If installer fails, it shows on the check list. Do it when it fails.)
 ```bash
 sudo raspi-config nonint do_spi 0
 sudo reboot
